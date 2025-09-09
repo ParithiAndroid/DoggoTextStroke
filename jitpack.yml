@@ -1,0 +1,5 @@
+jdk:
+  - openjdk17
+
+android:
+  build: ./gradlew :app:publishToMavenLocal -x test -x lint
