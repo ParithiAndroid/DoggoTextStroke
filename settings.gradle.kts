@@ -16,10 +16,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://jitpack.io") }
     }
 }
 
 rootProject.name = "DoggoTextStroke"
 include(":app")
-include(":sampleapp")
-include(":sampleapp2")
+//include(":sampleapp")
+//include(":sampleapp2")
